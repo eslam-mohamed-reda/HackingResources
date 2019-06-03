@@ -10,8 +10,8 @@ header:
 widget1:
   title: "Sections"
   url: 'http://hacking-resources.com/sections.html'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  image: https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/images/widget-1-302x182.jpg
+  text: 'Hacking Resources Sections. Explore offensive and defensive content'
 widget2:
   title: "Why use this theme?"
   url: 'http://phlow.github.io/feeling-responsive/info/'
