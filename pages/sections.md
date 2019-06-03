@@ -8,6 +8,7 @@ header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/sections/"
 ---
+
 <ul>
 
     <li><a href="https://hacking-resources.com/Red-Team-Arsenal.html">Red Team</a></li>
