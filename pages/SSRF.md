@@ -1,6 +1,13 @@
-# SSRF
-
-SSRF - Server Side Request Forgery attacks. The ability to create requests from the vulnerable server to intra/internet. Using a protocol supported by available URI schemas, you can communicate with services running on other protocols. Here we collect the various options and examples (exploits) of such interaction.
+---
+layout: page
+title: "SSRF"
+meta_title: "SSRF"
+subheadline: "Server side request forgery"
+teaser: "SSRF - Server Side Request Forgery attacks. The ability to create requests from the vulnerable server to intra/internet. Using a protocol supported by available URI schemas, you can communicate with services running on other protocols. Here we collect the various options and examples (exploits) of such interaction."
+header:
+   image_fullwidth: ""
+permalink: "/SSRF/"
+---
 
 ### SSRF Resources
 
