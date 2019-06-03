@@ -6,22 +6,22 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image_fullwidth: https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/images/header_homepage_131.jpg
 widget1:
   title: "Sections"
   url: 'http://hacking-resources.com/sections.html'
-  image: https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/images/widget-1-302x182.jpg
+  image: https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/assets/img/apple-touch-icon-180x180-precomposed.png
   text: 'Hacking Resources Sections. Explore offensive and defensive content'
 widget2:
-  title: "Why use this theme?"
+  title: "<br>Practice Resources"
   url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  text: '<em>Practice</em> is key.<br/>Practice Resources to get you ready for real action.'
+  video: '<img src="https://media.giphy.com/media/26BRzQS5HXcEWM7du/giphy.gif" width="302" height="182"/>'
 widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+  title: "<br>Knowledge Base"
+  url: 'http://phlow.github.io/feeling-responsive/info/'
+  video: '<img src="https://media.giphy.com/media/10fAvEln0lB8Lm/giphy.gif" width="302" height="80"/>'
+  text: '<em>Enjoy</em> reading variety of articles<br> to sharpen your skills'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -33,8 +33,8 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
+  url: https://tinyletter.com/hacking-resources
+  text: Inform me about new posts in hacking-resources ›
   style: alert
 permalink: /index.html
 #
@@ -44,9 +44,3 @@ permalink: /index.html
 homepage: true
 ---
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
