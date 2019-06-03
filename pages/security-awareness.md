@@ -6,7 +6,7 @@ subheadline: "Offensive"
 teaser: "A collection of free and open source tools that can be used to increase<b>Awareness</b> in an enterprise "
 header:
    image_fullwidth: ""
-permalink: "/security-awareness "
+permalink: "/security-awareness"
 ---
 
 * ### Resources 
