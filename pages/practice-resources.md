@@ -1,4 +1,13 @@
-# Practice Resources
+---
+layout: page
+title: "Practice Resources"
+meta_title: "Practice Resources"
+subheadline: ""
+teaser: ""
+header:
+   image_fullwidth: ""
+permalink: "/practice-resources"
+---
 
 <p align="center">
   <img width="460" height="300" src="https://media.giphy.com/media/26BRzQS5HXcEWM7du/giphy.gif">

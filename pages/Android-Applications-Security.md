@@ -1,4 +1,13 @@
-# Android Applications Security
+---
+layout: page
+title: "Android Applications Security"
+meta_title: "Android"
+subheadline: "Offensive"
+teaser: ""
+header:
+   image_fullwidth: ""
+permalink: "/Android-Applications-Security"
+---
 
 * ### Resources
 

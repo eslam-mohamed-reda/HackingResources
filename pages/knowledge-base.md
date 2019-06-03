@@ -1,4 +1,14 @@
-# Knowledge Base
+---
+layout: page
+title: "Knowledge Base"
+meta_title: "Knowledge"
+subheadline: ""
+teaser: ""
+header:
+   image_fullwidth: ""
+permalink: "/knowledge-base"
+---
+
 
 <p align="center">
   <img width="460" height="300" src="https://media.giphy.com/media/13vYKa7dCVrmAU/giphy.gif">
