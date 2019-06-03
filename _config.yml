@@ -51,7 +51,6 @@ plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
-    - jemoji
 
 
 #       ____              _             __  _
