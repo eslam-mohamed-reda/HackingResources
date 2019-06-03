@@ -15,7 +15,7 @@ permalink: "/XSS/"
 Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.
 
 > #### Getting Your XSS to Work
-[Turning self XSS to reflected](https://eredasecurity.wordpress.com/2018/03/07/getting-your-xss-to-work/){:target="_blank"}
+[Turning self XSS to reflected](https://hacking-resources.com/web-hacking/self-xss/){:target="_blank"}
 
 > #### Brute XSS blog
 [Some good resources for XSS](https://brutelogic.com.br/blog/){:target="_blank"}
