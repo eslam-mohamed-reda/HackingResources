@@ -1,4 +1,4 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
@@ -6,16 +6,16 @@
   url: "/getting-started/"
   side: left
 
-- title: "Templates"
-  url: "/design/"
+- title: "Sections"
+  url: "/Sections/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
+  - title: "Red Team"
+    url: "/Red-Team-Arsenal/"
+  - title: "Blue Team"
+    url: "/Blue-Team-Arsenal/"
+  - title: "Web"
+    url: "/Web-Applications-Security/"
   - title: "Post-Left-Sidebar"
     url: "/design/post-left-sidebar/"
   - title: "Post-Right-Sidebar"
