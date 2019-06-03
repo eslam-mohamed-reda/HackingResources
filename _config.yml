@@ -40,7 +40,7 @@ improve_content: https://github.com/eslam-mohamed-reda/HackingResources
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://github.com/eslam-mohamed-reda/HackingResources/tree/master/images'
+urlimg: 'https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/images'
 
 
 # Logo size is 600x80 pixels
