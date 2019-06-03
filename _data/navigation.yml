@@ -7,7 +7,7 @@
   side: left
 
 - title: "Sections"
-  url: "/Sections/"
+  url: "/sections/"
   side: left
   dropdown:
   - title: "Red Team"
