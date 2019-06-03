@@ -9,17 +9,17 @@ header:
   image_fullwidth: "header_homepage_13.jpeg"
 widget1:
   title: "Sections"
-  url: 'http://hacking-resources.com/sections.html'
+  url: 'http://hacking-resources.com/sections'
   image: https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/assets/img/apple-touch-icon-180x180-precomposed.png
   text: 'Hacking Resources Sections. Explore offensive and defensive content'
 widget2:
   title: "<br>Practice Resources"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
+  url: 'https://hacking-resources.com/practice-resources.html'
   text: '<em>Practice</em> is key.<br/>Practice Resources to get you ready for real action.'
   video: '<img src="https://media.giphy.com/media/26BRzQS5HXcEWM7du/giphy.gif" width="302" height="182"/>'
 widget3:
   title: "<br>Knowledge Base"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
+  url: 'https://hacking-resources.com/knowledge-base.html'
   video: '<img src="https://media.giphy.com/media/10fAvEln0lB8Lm/giphy.gif" width="302" height="80"/>'
   text: '<em>Enjoy</em> reading variety of articles<br> to sharpen your skills'
 #
