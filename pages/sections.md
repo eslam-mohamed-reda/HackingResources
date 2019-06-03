@@ -6,7 +6,7 @@ subheadline: "Explore"
 teaser: ""
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/Sections/"
+permalink: "/sections/"
 ---
 <ul>
 
