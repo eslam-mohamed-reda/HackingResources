@@ -11,7 +11,7 @@
 title: 'Hacking Resources'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Free Resources for the community'
+slogan: 'Resources, Tools and Lists'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: '»Hacking Resources« is volunteer led Repository made for the security community
@@ -44,7 +44,7 @@ urlimg: 'https://github.com/eslam-mohamed-reda/HackingResources/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "https://raw.githubusercontent.com/eslam-mohamed-reda/hacking-resources/master/favicon.ico"
+logo: "logo.png"
 
 # Plugins
 plugins:
@@ -145,9 +145,9 @@ defaults:
 #   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_author:             'https://plus.google.com/u/0/118311555303973066167'
-google_site_verification:  'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
-bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
+google_author:             ''
+google_site_verification:  ''
+bing_webmastertools_id:    ''
 # yandex_site_verification:  ''
 # alexa_verify_id:           ''
 
