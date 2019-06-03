@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/images/header_homepage_131.jpg
+  image_fullwidth: "header_homepage_131.jpg"
 widget1:
   title: "Sections"
   url: 'http://hacking-resources.com/sections.html'
