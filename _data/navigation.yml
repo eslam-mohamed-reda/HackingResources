@@ -11,11 +11,11 @@
   side: left
   dropdown:
   - title: "Red Team"
-    url: "/Red-Team-Arsenal"
+    url: "/Red-Team-Arsenal.html"
   - title: "Blue Team"
-    url: "/Blue-Team-Arsenal"
+    url: "/Blue-Team-Arsenal.html"
   - title: "Web"
-    url: "/Web-Applications-Security"
+    url: "/Web-Applications-Security.html"
   - title: "Post-Left-Sidebar"
     url: "/design/post-left-sidebar/"
   - title: "Post-Right-Sidebar"
