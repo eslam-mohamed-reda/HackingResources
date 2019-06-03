@@ -14,11 +14,11 @@ permalink: "/Red-Team-Arsenal"
   <img width="460" height="300" src="https://media.giphy.com/media/xTiTnBELA6Mb1TeeOc/giphy.gif">
 </p>
 
-* ### Resources :books:
+* ### Resources 
 
-	* **[Android Applications Resources :iphone:](https://eslam-mohamed-reda.github.io/hacking-resources/Cool-Stuff/Android-Applications-Security){:target="_blank"}**
+	* **[Android Applications Resources ](https://eslam-mohamed-reda.github.io/hacking-resources/Cool-Stuff/Android-Applications-Security){:target="_blank"}**
 
-	* **[Web Applications Resources](https://eslam-mohamed-reda.github.io/hacking-resources/Cool-Stuff/Web-Applications-Security){:target="_blank"}** :spider_web:
+	* **[Web Applications Resources](https://eslam-mohamed-reda.github.io/hacking-resources/Cool-Stuff/Web-Applications-Security){:target="_blank"}** 
 
 ***
 
