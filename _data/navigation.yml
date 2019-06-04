@@ -31,7 +31,13 @@
     url: "/practice-resources.html"
   - title: "Tools How to"
     url: "/tools-how-to.html"
-    
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"    
 
 - title: "Search"
   url: "/search/"
