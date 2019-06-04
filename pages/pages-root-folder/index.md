@@ -33,7 +33,7 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/hacking-resources
+  url: http://hacking-resources.com/subscribe
   text: Inform me about new posts in hacking-resources ›
   style: alert
 permalink: /index.html
