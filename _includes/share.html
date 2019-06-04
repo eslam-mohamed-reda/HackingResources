@@ -1,64 +1,23 @@
-<style>
-/* Share buttons */
-.sharebuttons {
-  margin: 0 auto 0 auto;
-}
-
-.sharebuttons ul {
-  margin: 20px 0 0 0;
-  text-align: center;
-}
-
-.sharebuttons ul li {
-  display: inline;
-}
-
-.sharebuttons ul li a {
-  text-decoration: none;
-}
-
-.sharebuttons ul li svg {
-  width: 40px;
-  height: 40px;
-}
-
-.sharebuttons .reddit svg {
-  fill: #FF4500;
-}
-
-.sharebuttons .hn svg {
-  fill: #F0652F;
-}
-
-.sharebuttons .twitter svg {
-  fill: #1DA1F2;
-}
-
-.sharebuttons .linkedin svg {
-  fill: #0077B5;
-}
-</style>
-
 <div class="sharebuttons">
   <hr />
-  <ul>
-    <li>
+  
       <p class="sharetitle"> Share this: </p>
-    </li>
-    <li class="reddit">
-      <a href="http://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape }}" target="_blank">
-        {% include social/share-icon-reddit.svg %}
-      </a>
-    </li>
-    <li class="twitter">
-      <a href="https://twitter.com/intent/tweet?via=eredafl&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&text={{ page.title | default:"" | uri_escape}}" target="_blank">
-        {% include social/share-icon-twitter.svg %}
-      </a>
-    </li>
-    <li class="linkedin">
-      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape}}" target="_blank">
-        {% include social/share-icon-linkedin.svg %}
-      </a>
-    </li>
-  </ul>
+	  
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+      <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}};src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+
+<div class='twitter'>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_button_email"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_hacker_news"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
 </div>
