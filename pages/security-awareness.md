@@ -28,3 +28,6 @@ permalink: "/security-awareness"
   * [KingPhisher : Phishing Campaign Toolkit](https://github.com/securestate/king-phisher){:target="_blank"}  
 
   * [Ares : Phishing toolkit for red teams and pentesters](https://github.com/dutchcoders/ares){:target="_blank"}
+  
+  
+{% include share.html %}

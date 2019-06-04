@@ -145,6 +145,6 @@ permalink: "/Red-Team-Arsenal"
 	
 	
 	
-	
+{% include share.html %}	
 	
 	

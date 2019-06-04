@@ -29,3 +29,6 @@ permalink: "/knowledge-base"
 	* #### Threat Hunting
 	
 		* [The Endgame Guide to Threat Hunting book](https://pages.endgame.com/rs/627-YBU-612/images/The%20Endgame%20Guide%20to%20Threat%20Hunting%20-%20ebook.pdf){:target="_blank"}
+
+
+{% include share.html %}

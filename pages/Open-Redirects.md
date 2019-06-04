@@ -115,3 +115,6 @@ Open redirection vulnerabilities arise when an application incorporates user-con
   * [[apps.shopify.com] Open Redirect](https://hackerone.com/reports/160047){:target="_blank"}
   
   * [Open redirects that matter : Google open redirect](https://sites.google.com/site/bughunteruniversity/best-reports/openredirectsthatmatter){:target="_blank"}
+  
+  
+{% include share.html %}

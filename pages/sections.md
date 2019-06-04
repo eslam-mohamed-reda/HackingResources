@@ -18,3 +18,6 @@ permalink: "/sections/"
 	<li><a href="https://hacking-resources.com/security-awareness.html">Awareness</a></li>
     
 </ul>
+
+
+{% include share.html %}

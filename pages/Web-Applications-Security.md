@@ -19,3 +19,6 @@ permalink: "/Web-Applications-Security"
   * [Open Redirects](/Open-Redirects){:target="_blank"}
   
   * [SSRF](https://hacking-resources.com/SSRF){:target="_blank"}
+  
+  
+{% include share.html %}

@@ -122,7 +122,7 @@ permalink: "/Blue-Team-Arsenal"
   * [CONPOT : ICS/SCADA Honeypot](http://conpot.org/){:target="_blank"}
 
 
-
+{% include share.html %}
 
 
 
