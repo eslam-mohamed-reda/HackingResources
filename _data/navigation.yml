@@ -31,9 +31,14 @@
     url: "/practice-resources.html"
   - title: "Tools How to"
     url: "/tools-how-to.html"
+    
 
 - title: "Search"
   url: "/search/"
+  side: right
+  
+- title: "Subscribe"
+  url: "/subscribe/"
   side: right
 
 - title: "Contact"
