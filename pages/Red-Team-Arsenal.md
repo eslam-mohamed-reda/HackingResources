@@ -5,7 +5,7 @@ meta_title: "Red Team"
 subheadline: "Offensive"
 teaser: "A collection of free and open source tools to make the work of a <b>Red Teamer</b> easier"
 header:
-   image_fullwidth: ""
+   image_fullwidth: "Red.jpg"
 permalink: "/Red-Team-Arsenal"
 ---
 

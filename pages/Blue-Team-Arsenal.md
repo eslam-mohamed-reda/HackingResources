@@ -5,7 +5,7 @@ meta_title: "Blue Team"
 subheadline: "Defensive"
 teaser: "A collection of free and open source tools to make the work of a <b>Blue Teamer</b> easier"
 header:
-   image_fullwidth: "https://media.giphy.com/media/DBfYJqH5AokgM/giphy.gif"
+   image_fullwidth: "Blue.jpg"
 permalink: "/Blue-Team-Arsenal"
 ---
 
