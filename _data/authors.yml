@@ -10,5 +10,12 @@ phlow: # replace this with your info
   siterole: "Penetration Tester"
   uri: 
   email:
-  twitter: "@eredafl"
+  twitter: ""
 # you can add more authors here
+
+phlow: # replace this with your info
+  name: "Fleur"
+  siterole: "Security Specialist"
+  uri: 
+  email:
+  twitter: ""
