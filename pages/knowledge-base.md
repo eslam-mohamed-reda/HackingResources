@@ -19,6 +19,10 @@ permalink: "/knowledge-base"
 	* #### Attack Automation
 		
 		* [Automating large pentests](https://www.peerlyst.com/posts/tips-for-an-information-security-analyst-pentester-career-ep-70-automating-large-pentests-mattia-campagnano-13-years-experience-akron-oh){:target="_blank"}
+		
+	* #### Android
+
+		* [SSL pinning bypassing](https://hacking-resources.com/mobile-hacking/bypassing-ssl-pinning/){:target="_blank"}
   
 * ### Defensive
 

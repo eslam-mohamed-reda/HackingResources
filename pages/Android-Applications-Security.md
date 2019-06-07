@@ -14,6 +14,8 @@ permalink: "/Android-Applications-Security"
   * [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg){:target="_blank"}
   
   * [OWASP Mobile App Security Checklist](https://www.owasp.org/images/6/6f/Mobile_App_Security_Checklist_0.9.2.xlsx){:target="_blank"}
+  
+  * [Bypassing SSL Pinning](https://hacking-resources.com/mobile-hacking/bypassing-ssl-pinning/){:target="_blank"}
 
   * [[Dorian Cussen]Android-Security-Reference](https://github.com/doridori/Android-Security-Reference){:target="_blank"}
   
