@@ -155,9 +155,13 @@ A tool to find DOM based XSS
 		* [DOM Based XSS In mercantile.wordpress.org](https://hackerone.com/reports/230435){:target="_blank"}
 		
 		* [Account Recovery XSS : Google](https://sites.google.com/site/bughunteruniversity/best-reports/account-recovery-xss){:target="_blank"}
+		
+		* [DOM-based XSS in store.starbucks.co.uk on IE 11](https://hackerone.com/reports/241619){:target="_blank"}
+		
 
 
 
+{% include share.html %}
 
 
 
