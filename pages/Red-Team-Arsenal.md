@@ -68,6 +68,10 @@ permalink: "/Red-Team-Arsenal"
   
   * [CATPHISH : Generate similar-looking domains for phishing attacks](https://github.com/ring0lab/catphish){:target="_blank"}
 
+* ### Password Cracking
+
+	*  [GoCrack: A Managed Password Cracking Tool](https://github.com/fireeye/gocrack){:target="_blank"}
+
 * ### Wireless tools
 
 	*  [Aircrack-ng : A complete suite of tools to assess WiFi network security](https://github.com/aircrack-ng/aircrack-ng){:target="_blank"}
@@ -129,6 +133,10 @@ permalink: "/Red-Team-Arsenal"
 		* SSRF
 		
 			* [Tools and resources](http://hacking-resources.com/Cool-Stuff/SSRF){:target="_blank"}
+			
+		* XXE
+		
+			* [xxe-recursive-download : A tool that exploits XXE to retrieve files from a target server](https://github.com/GDSSecurity/xxe-recursive-download){:target="_blank"}
 			
 		* SQL Injection
 		
