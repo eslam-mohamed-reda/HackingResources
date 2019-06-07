@@ -98,12 +98,12 @@ This method won’t work with applications that uses HSTS (HTTP Strict Transport
 
 Bypassing SSL pinning is a small part of pen testing mobile applications the methods above is just to get you familiar with how things work and you should find the method that works best for the app you're testing. Good Luck!
 
-
-***
 <br>
 <br>
 
+{% include share.html %}
 
+<br>
 <h6>References</h6>
 *	<h8>Portswigger.net</h8>
 *	<h8>netspi.com</h8>
