@@ -124,15 +124,15 @@ permalink: "/Red-Team-Arsenal"
 
 		* XSS
 		
-			* [Tools and resources](http://hacking-resources.com/Cool-Stuff/XSS){:target="_blank"}
+			* [Tools and resources](http://hacking-resources.com/XSS){:target="_blank"}
 			
 		* Open Redirection
 		
-			* [Tools and resources](http://hacking-resources.com/Cool-Stuff/Open%20Redirects){:target="_blank"}
+			* [Tools and resources](https://hacking-resources.com/Open-Redirects){:target="_blank"}
 			
 		* SSRF
 		
-			* [Tools and resources](http://hacking-resources.com/Cool-Stuff/SSRF){:target="_blank"}
+			* [Tools and resources](http://hacking-resources.com/SSRF){:target="_blank"}
 			
 		* XXE
 		
