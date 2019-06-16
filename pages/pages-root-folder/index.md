@@ -10,7 +10,7 @@ header:
 widget1:
   title: "Sections"
   url: 'http://hacking-resources.com/sections'
-  image: https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/assets/img/apple-touch-icon-180x180-precomposed.png
+  image: https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/assets/img/logo.png
   text: 'Hacking Resources Sections. Explore offensive and defensive content'
 widget2:
   title: "<br>Practice Resources"

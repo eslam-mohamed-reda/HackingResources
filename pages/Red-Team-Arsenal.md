@@ -93,6 +93,16 @@ permalink: "/Red-Team-Arsenal"
 	*  [kernelpop : A kernel privilege escalation enumeration and exploitation framework](https://github.com/spencerdodd/kernelpop){:target="_blank"}
 	
 	*  [Unix-privesc-checker : A script that runs on Unix systems](https://github.com/pentestmonkey/unix-privesc-check){:target="_blank"}
+	
+	*  [BeRoot Project : A privilege Escalation Project - Windows / Linux / Mac](https://github.com/AlessandroZ/BeRoot){:target="_blank"}
+	
+	*  [pypykatz : A mimikatz implementation in pure Python](https://github.com/skelsec/pypykatz){:target="_blank"}
+	
+	*  [yodo : A local Privilege Escalation](https://github.com/b3rito/yodo){:target="_blank"}
+	
+	*  [portia : Automated tool to perform privilege escalation](https://github.com/SpiderLabs/portia){:target="_blank"}
+	
+	*  [PowerUp : Windows Local Privilege Escalation](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc){:target="_blank"}
 
 * ### Web Penetration Testing tools
 
