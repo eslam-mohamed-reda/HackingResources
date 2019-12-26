@@ -11,10 +11,13 @@ categories:
     - tools
 image:
     thumb: mrrob.jpg
-    title: mrrob.jpg
+    title: 
     caption_url: http://hacking-resources.com
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eslam-mohamed-reda/HackingResources/master/images/mrrob.jpg">
+</p>
 
 <p>As a penetration tester or security professional you always consider enhancing your tools to save effort, time and to increase effectiveness of what you do. One of the ways to do that is to have your own cloud ready to engage machine. </p>
 <p><strong>Why?</strong></p>
