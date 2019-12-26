@@ -16,9 +16,9 @@ permalink: "/Red-Team-Arsenal"
 
 * ### Resources :books:
 
-	* **[Android Applications Resources :iphone:](https://eslam-mohamed-reda.github.io/hacking-resources/Cool-Stuff/Android-Applications-Security){:target="_blank"}**
+	* **[Android Applications Resources :iphone:](https://hacking-resources.com/Android-Applications-Security.html){:target="_blank"}**
 
-	* **[Web Applications Resources](https://eslam-mohamed-reda.github.io/hacking-resources/Cool-Stuff/Web-Applications-Security){:target="_blank"}** :spider_web:
+	* **[Web Applications Resources](https://hacking-resources.com/Web-Applications-Security.html){:target="_blank"}** :spider_web:
 
 ***
 
