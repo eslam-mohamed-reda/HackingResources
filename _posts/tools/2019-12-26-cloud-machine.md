@@ -1,7 +1,7 @@
 ---
 layout: page
 subheadline: 
-title:  "How to build your cloud pen testing machine"
+title:  "How To Build Your Cloud Pen Testing Machine"
 subheadline:  "Tools"
 teaser: "Hack from the cloud"
 breadcrumb: true
