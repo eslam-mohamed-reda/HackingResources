@@ -9,6 +9,12 @@ header:
 permalink: "/tools-how-to"
 ---
 
+* ### Supporting Tools
+
+	* #### Cloud
+		
+		* [How to build your cloud pen testing machine](https://hacking-resources.com/tools/cloud-machine/){:target="_blank"}
+		
 * ### Scanning Tools
 
 	* #### Nmap
