@@ -31,11 +31,11 @@ permalink: "/sections/"
 }
 </style>
 <div class="btn-group">
-  <button><a href="https://hacking-resources.com/Red-Team-Arsenal.html">Red Team</a></button>
-  <button><a href="https://hacking-resources.com/Blue-Team-Arsenal.html">Blue Team</a></button>
-  <button><a href="https://hacking-resources.com/Web-Applications-Security.html">Web</a></button>
-  <button><a href="https://hacking-resources.com/Android-Applications-Security.html">Android</a></button>
-  <button><a href="https://hacking-resources.com/security-awareness.html">Awareness</a></button>
+  <button><a href="{{ site.url }}/Red-Team.html">Red Team</a></button>
+  <button><a href="{{ site.url }}/Blue-Team-Arsenal.html">Blue Team</a></button>
+  <button><a href="{{ site.url }}/Web-Applications-Security.html">Web</a></button>
+  <button><a href="{{ site.url }}/Android-Applications-Security.html">Android</a></button>
+  <button><a href="{{ site.url }}/security-awareness.html">Awareness</a></button>
 </div>
 </html>
 

@@ -11,7 +11,7 @@
   side: left
   dropdown:
   - title: "Red Team"
-    url: "/Red-Team-Arsenal.html"
+    url: "/Red-Team"
   - title: "Blue Team"
     url: "/Blue-Team-Arsenal.html"
   - title: "Web"
