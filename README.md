@@ -1,4 +1,4 @@
-## You like hacking resources? Then support me. Just [Buy Me a coffee](https://paypal.me/EslamMReda) :)
+## You like hacking resources? Then support us. [donate](https://paypal.me/EslamMReda) :)
 
 # Hacking Resources 
 **Regularly updated :fire:** 
