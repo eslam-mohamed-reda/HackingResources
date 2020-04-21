@@ -9,9 +9,18 @@ header:
 permalink: "/privesc-master"
 ---
 
+{% include alert info='Windows' %}	
 
-Coming Soon
-	
+{% include alert warning='<a href="https://hacking-resources.com/privesc-master/windows-kernel"><em>Search</em> Kernel Exploits Here</a>' %}
+
+{% include alert terminal='Linux' %}
+
+{% include alert warning='Coming Soon' %}
+
+
+
+
+
 	
 {% include share.html %}	
 	
