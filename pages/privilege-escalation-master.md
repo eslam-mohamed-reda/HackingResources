@@ -3,7 +3,7 @@ layout: page
 title: "Privilege Escalation Master"
 meta_title: "Privilege Escalation Master"
 subheadline: "Find an Exploit"
-teaser: "Here you will find a quick reference for Windows and Linux privilege escalation vulnerabilities within every type of vulnerability there's a link to a database of vulnerbilities of that type to guide you quick to the right exploit."
+teaser: "Here you will find a quick cheatsheet for Windows and Linux privilege escalation vulnerabilities within every type of vulnerability there's a link to a database of vulnerbilities, a tip or a link to a tool to quickly guide you to the right exploit."
 header:
    image_fullwidth: "Red.jpg"
 permalink: "/privesc-master"
