@@ -9,7 +9,7 @@ header:
 permalink: "/getting-started/"
 ---
 1. Check out the website <u><a href="https://hacking-resources.com/sections/">sections</a></u> at the top menu.
-1. Start defining goals to study.
+1. Start defining goals to study and <u><a href="{{site.url}}/subscribe/">subscribe</a></u> to get new updates.
 1. Each section contains tools and resources.
 1. For more about tools check <u><a href="https://hacking-resources.com/tools-how-to.html">tools how to</a></u> in Resources tap.
 1. For general reading check <u><a href="https://hacking-resources.com/knowledge-base.html">knowledge base</a></u> and <u><a href="https://hacking-resources.com/blog/">hacking resources Blog</a></u>.
