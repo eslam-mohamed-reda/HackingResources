@@ -1,0 +1,11 @@
+I"´<h3>Kernel</h3>
+<p><br />OS name and version:<br />
+<code>&gt;C:\Windows\system32&gt; systeminfo | findstr /B /C:"OS Name" /C:"OS Version"</code><br />
+Check drivers:<br /><code>driverquery</code><br />Check Patches:<br />
+<code>&gt;wmic qfe get Caption,Description,HotFixID,InstalledOn</code><br />
+Tools for enumeration:<br />
+<a href="https://github.com/rasta-mouse/Sherlock">Sherlock</a><br />
+<a href="https://github.com/rasta-mouse/Watson">Watson </a><br />
+<a href="https://github.com/AonCyberLabs/Windows-Exploit-Suggester">Windows Exploit Suggester </a><br />
+Got lucky ?<br /><a href="https://hacking-resources.com/privesc-master/windows-kernel">Search Kernel Exploits Here</a></p>
+:ET

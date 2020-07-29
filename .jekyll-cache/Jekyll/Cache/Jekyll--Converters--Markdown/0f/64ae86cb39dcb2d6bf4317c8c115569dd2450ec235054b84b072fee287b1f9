@@ -1,0 +1,160 @@
+I"L<p align="center">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/eslam-mohamed-reda/hacking-resources/master/media/openredirect.gif" />
+</p>
+
+<p>Open redirection vulnerabilities arise when an application incorporates user-controllable data into the target of a redirection in an unsafe way. An attacker can construct a URL within the application that causes a redirection to an arbitrary external domain.</p>
+
+<ul>
+  <li>
+    <p><strong>tools</strong></p>
+
+    <ul>
+      <li><a href="https://github.com/KendoClaw1/Open-Redirection-Scanner/" target="_blank">Open-Redirection-Scanner by KendoClaw1</a></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Possible Vulnerable Parameters</strong></p>
+
+    <p>dest=</p>
+
+    <p>continue=</p>
+
+    <p>redirect=</p>
+
+    <p>url=</p>
+
+    <p>window=</p>
+
+    <p>next=</p>
+
+    <p>?next=</p>
+
+    <p>?url=</p>
+
+    <p>/redirect/</p>
+
+    <p>/cgi-bin/redirect.cgi?</p>
+
+    <p>?view=</p>
+
+    <p>login?to=</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/eslam-mohamed-reda/hacking-resources/blob/master/Open%20redirection%20fuzzing%20list" target="_blank">For Manual Testing</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/eslam-mohamed-reda/hacking-resources/blob/master/Referer%20Open%20Redirect%20POC" target="_blank">Referer Open Redirect POC</a>  Use it to exploit vulnerable referer parameters</p>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>
+    <h3 id="disclosed-open-redirect-reports">Disclosed open redirect reports</h3>
+
+    <ul>
+      <li>
+        <p><a href="https://hackerone.com/reports/2622" target="_blank">URL redirection flaw</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/3596" target="_blank">OAuth access_token stealing in Phabricator</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/3930" target="_blank">OAuth Stealing Attack (New)</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/6322" target="_blank">Header injection on rmaitrack.ads.vip.bf1.yahoo.com</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/25160" target="_blank">Open redirection on secure.phabricator.com</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/97948" target="_blank">Cross-domain AJAX request</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/104087" target="_blank">Trick make all fixed open redirect links vulnerable again</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/108113" target="_blank">Bypassing callback_url validation on Digits</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/243474" target="_blank">Identity Login Page Redirect Can Be Manipulated</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/291750" target="_blank">Link filter protection bypass</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/190188" target="_blank">Open Redirect bypass and cookie leakage on www.lahitapiola.com</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/179328" target="_blank">Open Redirect (verkkopalvelu.lahitapiola.fi)</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/175168" target="_blank">[ecommerce.shopify.com] Invalidated redirection</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/169759" target="_blank">Open redirect in bulk edit</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/165046" target="_blank">Open redirect allows changing iframe content</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/119236" target="_blank">Open Redirection on Uber.com</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/101962" target="_blank">Open redirect using theme install</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/87027" target="_blank">[keybase.io] Open Redirect</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/111968" target="_blank">Interstitial redirect bypass / open redirect in https://hackerone.com/zendesk_session</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/55546" target="_blank">Open Redirect after login at http://ecommerce.shopify.com</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/49759" target="_blank">Open Redirect leak of authenticity_token lead to full account take over</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/26962" target="_blank">open redirect in rfc6749</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/6017" target="_blank">Facebook Takeover using Slack using 302 from files.slack.com with access_token</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/23386" target="_blank">Redirect while opening links in new tabs</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/155222" target="_blank">(BYPASS) Open Redirect after login at http://ecommerce.shopify.com</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/150374" target="_blank">https://windsor.shopify.com/ takeover</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/160047" target="_blank">[apps.shopify.com] Open Redirect</a></p>
+      </li>
+      <li>
+        <p><a href="https://sites.google.com/site/bughunteruniversity/best-reports/openredirectsthatmatter" target="_blank">Open redirects that matter : Google open redirect</a></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="sharebuttons">
+  <hr />
+  
+      <p class="sharetitle"> Share this: </p>
+	  <!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_button_email"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_hacker_news"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+</div>
+:ET

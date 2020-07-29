@@ -1,0 +1,117 @@
+I"¹<h3 id="ssrf-resources">SSRF Resources</h3>
+
+<ul>
+  <li>
+    <p><a href="https://www.hackerone.com/blog-How-To-Server-Side-Request-Forgery-SSRF" target="_blank">HOW TO: SERVER-SIDE REQUEST FORGERY (SSRF)</a></p>
+  </li>
+  <li>
+    <p><a href="https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978" target="_blank">SSRF - Server Side Request Forgery (Types and ways to exploit it) Part-1</a></p>
+  </li>
+  <li>
+    <p><a href="https://generaleg0x01.com/2019/03/10/escalating-ssrf-to-rce/" target="_blank">Escalating SSRF to RCE</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=D1S-G8rJrEk" target="_blank">A New Era Of SSRF - Exploiting Url Parsers - Orange Tsai</a></p>
+  </li>
+  <li>
+    <p><a href="http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html" target="_blank">How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.silentrobots.com/blog/2019/02/06/ssrf-protocol-smuggling-in-plaintext-credential-handlers-ldap/" target="_blank">SSRF Protocol Smuggling in Plaintext Credential Handlers : LDAP</a></p>
+  </li>
+</ul>
+
+<h3 id="ssrf-tools">SSRF Tools</h3>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/tarunkant/Gopherus" target="_blank">Gopherus : This tool generates gopher link for exploiting SSRF and gaining RCE in various servers</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/bcoles/ssrf_proxy" target="_blank">SSRF Proxy : Facilitates tunneling HTTP communications through servers vulnerable to Server-Side Request Forgery</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/bcoles/ssrf_proxy" target="_blank">SSRFmap : Automatic SSRF fuzzer and exploitation tool</a></p>
+  </li>
+</ul>
+
+<p><a href="https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery" target="_blank">For Manual Testing SSRF Payloads List in here</a></p>
+
+<hr />
+
+<ul>
+  <li>
+    <h3 id="disclosed-ssrf-reports">Disclosed SSRF Reports</h3>
+
+    <ul>
+      <li>
+        <p><a href="https://hackerone.com/reports/429617" target="_blank">Reverse Proxy misroute leading to steal X-Shopify-Access-Token header</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/386292" target="_blank">Bypass of the SSRF protection in Event Subscriptions parameter.</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/341876" target="_blank">SSRF in Exchange leads to ROOT access in all instances</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/374737" target="_blank">Blind SSRF on errors.hackerone.net due to Sentry misconfiguration</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/398799" target="_blank">Unauthenticated blind SSRF in OAuth Jira authorization controller</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/299473" target="_blank">Evaluating Ruby code by injecting Rescue job on the system_hook_push queue through web hook</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/265050" target="_blank">Blind SSRF in emblem editor (2)</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/713" target="_blank">Upload profile photo from URL</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/411865" target="_blank">Blind SSRF at https://chaturbate.com/notifications/update_push/</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/398799" target="_blank">Unauthenticated blind SSRF in OAuth Jira authorization controller</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/223203" target="_blank">SVG Server Side Request Forgery (SSRF)</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/206894" target="_blank">SSRF at iris.lystit.com</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/220009" target="_blank">Lack of input sanitization in Marketo form leads to execution of HTML in lead emails</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/381129" target="_blank">SSRF in api.slack.com, using slash commands and bypassing the protections.</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/204513" target="_blank">Infrastructure - Photon - SSRF</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/178184" target="_blank">SSRF in https://cards-dev.twitter.com/validator</a></p>
+      </li>
+      <li>
+        <p><a href="https://hackerone.com/reports/358119" target="_blank">SSRF in proxy.duckduckgo.com via the image_host parameter</a></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="sharebuttons">
+  <hr />
+  
+      <p class="sharetitle"> Share this: </p>
+	  <!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_button_email"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_hacker_news"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+</div>
+:ET

@@ -1,0 +1,18 @@
+I"è<h3>Spawning a TTY Shell</h3>
+<p><br />
+<code>$python -c &apos;import pty; pty.spawn("/bin/sh")&apos;</code><br /><br />
+<code>$echo os.system(&apos;/bin/bash&apos;)</code><br />
+<code>$/bin/sh -i</code><br /><br />
+<code>$perl -e &apos;exec "/bin/sh";&apos;</code><br />
+perl: <code>$exec "/bin/sh";</code><br /><br />
+ruby: <code>$exec "/bin/sh"</code><br /><br />
+lua: <code>$os.execute(&apos;/bin/sh&apos;)</code><br /><br />
+From within IRB:<br />
+<code>$exec "/bin/sh"</code><br />
+From within vi:<br />
+<code>:!bash</code><br />
+From within vi:<br />
+<code>:set shell=/bin/bash:shell</code><br />
+From within nmap:<br />
+<code>!sh</code><br /></p>
+:ET

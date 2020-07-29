@@ -1,0 +1,37 @@
+I"è<ul>
+  <li>
+    <h3 id="resources">Resources</h3>
+
+    <ul>
+      <li>
+        <p><a href="https://www.owasp.org/images/1/19/OTGv4.pdf" target="_blank">OWASP Web Security Testing Guide</a></p>
+      </li>
+      <li>
+        <p><a href="https://hacking-resources.com/XSS" target="_blank">XSS</a></p>
+      </li>
+      <li>
+        <p><a href="/Open-Redirects" target="_blank">Open Redirects</a></p>
+      </li>
+      <li>
+        <p><a href="https://hacking-resources.com/SSRF" target="_blank">SSRF</a></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="sharebuttons">
+  <hr />
+  
+      <p class="sharetitle"> Share this: </p>
+	  <!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_button_email"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_hacker_news"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+</div>
+:ET

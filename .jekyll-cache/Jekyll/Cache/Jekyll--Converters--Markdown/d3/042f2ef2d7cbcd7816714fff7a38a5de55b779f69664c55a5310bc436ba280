@@ -1,0 +1,63 @@
+I"�-<h3>Search on Hacking Resources blog</h3>
+<form action="/search" method="get">
+  <input type="text" id="search-box" name="query" />
+  <input type="submit" value="search" />
+</form>
+
+<ul id="search-results"></ul>
+
+<script>
+  window.store = {
+    
+      "tools-cloud-machine": {
+        "title": "How To Build Your Cloud Pen Testing Machine",
+        "author": "Eslam Reda",
+        "category": "",
+        "content": "  As a penetration tester or security professional you always consider enhancing your tools to save effort, time and to increase effectiveness of what you do. One of the ways to do that is to have your own cloud ready to engage machine. Why?Control over bandwidth and power.Privacy for your own network. You will use it at minimum.Always available from any location.You can leave your tools running safely (with cautious).Perfect for web and external pen testing you can easily start (reverse shell listener, web server, FTP).Where and How?Of course it depends on which environment you’re comfortable with and which platform will allow you to perform pen testing from their infrastructure. But there are some platforms that are known to do so and checking pen testing community feedback I think the best with no specific order are:DigitalOceanAWSMS AzureVultrLinodeOnehostcloudGearing up your machine:Before you start using the machine make sure you don’t get hacked while hacking. Start hardening the system, Kali security training.I chose Kali Linux as it’s the most common pen testing OS. But you can always use another OS and add the tools on it.In addition to tools already on kali check below ones to gear it up.Recon tools:Hacking resources tools listYou will need some configuration to get it up and running for example you need to add your API keys  to recon-ng to make it more effective.After adjusting configuration of individual tools you can automate your reconnaissance by tools like:DiscovermegpluslazyreconExploitation tools:Update OS and update databases of tools like Metasploit, SQLmap etc.Keep your payload files ready to go and download:PayloadAllThingsSecListsPentestmonkeyPrivilege escalation: Download  privilege escalation enumeration scripts to be ready to push to targets.Additional services:Working on external network is more exposed than working on internal networks. Here are some tips to keep in mind for any pen test in general:If you’re planning to host some payloads using web service.Make sure you restrict access and harden the web server and keep it running only while executing the attack.Use secure services to transfer files such as SFTP.Use encrypted shells with authentication.Be very careful with customer data and make sure you delete all files and traces on your machine after the engagement.Work Smart: What are your most common targets? I know you want your machine to be ready for work whatever the target But consider the machine performance and storage, Always keep or add tools relevant to what you’re usually attacking. Do not fill your machine with tools you will never use.Please feel free provide feedback about your cloud pen testing experience or additional ideas to make it more effective.           Share this: \t  Related Posts        ",
+        "url": "/tools/cloud-machine/"
+      }
+      ,
+    
+      "mobile-hacking-bypassing-ssl-pinning": {
+        "title": "How to Bypass SSL Pinning",
+        "author": "Eslam Reda",
+        "category": "",
+        "content": "What is SSL/certificate pinning?Pinning is the process of associating a host with their expected X509 certificate or public key. It’s a technique used by apps to defend against multiple attacks including MiTM attacks and identity theft attacks. In this context, pinning is a term that refers to the process of authenticating the identity of a host (provided by a remote server in the form of an SSL certificate) against a local, trusted copy of the legitimate certificate. Therefore, a connection with the remote server will only be established if the server can prove its identity by means of a certificate that matches the app’s expectations.For you to start testing applications one of the ways is to intercept the requests using a proxy like (Burp suite, ZAP, etc.). For that to happen properly you need to get the app to trust the self-signed certificate provided by the used proxy but despite that these certificates can be trusted by the devices they will not match the pinned certificate that the app expects. So if you install the proxy certificate properly on the device you still need to figure out a way to bypass SSL pinning for the app. Let’s have a look at different ways to accomplish that:      Adding a Custom CA to the User Certificate Store  The first way to avoid SSL errors is to have a valid trusted certificate.Android has two built-in certificate stores for CAs trusted by the operating system – the system store (pre-installed CAs) and the user store (user-installed CAs).By default, secure connections from all apps trust the pre-installed system CAs, and apps targeting Android 6.0 (API level 23) and lower also trust the user-added CA store by default. So if Android Version is 6.0 or less the applications will trust certificates we add to the user store but later versions won’t.And knowing the fact that some applications only run on certain versions of Android so we know above way won’t work unless we edit the application to target Android version 6.0 or lower we can do that by editing manifest element in the file AndroidManifest.xml and changing ‘platformBuildVersionCode’ attribute to API level 23&lt;manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.test.app\" platformBuildVersionCode=\"23\"&gt;For tools to reverse the app and edit the file check Android Application ResourcesWhen the application is repackaged with this updated manifest, it will trust the user-added CA store.But if the application must run on specific platform, According to https://developer.android.com/training/articles/security-config.html we can define specific trust anchors in the /res/xml/network_security_config.xml configuration file of the APK. For example, the following file defines a new trusted CA that needs to be stored at /res/raw/my_ca&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;&lt;network-security-config&gt;    &lt;domain-config&gt;        &lt;domain includeSubdomains=\"true\"&gt;example.com&lt;/domain&gt;        &lt;trust-anchors&gt;            &lt;certificates src=\"@raw/my_ca\"/&gt;        &lt;/trust-anchors&gt;    &lt;/domain-config&gt;&lt;/network-security-config&gt;If the application is only validating that the presented certificate is valid, this way will allow you to intercept the app’s traffic.      Frida  Frida is a tool that let you inject scripts to native apps to modify the application behavoir and make dynamic test in real time.The first thing you need to do is get Frida, there are two parts to it the first part is the frida-tools, which you can install on your machine with the next command:pip install frida-toolsThe second part is an executable file that you have to download and copy into your virtual device.you can download it from here then decompress it.connect to your device using adb./adb connect \"IP address\"Move the file into the virtual device (default path is /data/local/tmp/) replace x.x.x with the version you downloaded./adb push frida-server-x.x.x-android-x86 /data/local/tmp/frida-serverGive execution permissions to frida-server:./adb shell chmod 755 /data/local/tmp/frida-serverAnd then go to the device to the above directory and run the frida-server with the next command:./frida-server &amp;Now export the proxy certificate and push it to the device./adb push burp.der /data/local/tmp/burp.crtThen download frida ssl pinning bypass script and use it as followsfrida -U -f com.test.android -l sslpinning.js com.test.android is the app you’re testingDone! The app should work smoothly with your proxy.This method won’t work with applications that uses HSTS (HTTP Strict Transport Security).ConclusionBypassing SSL pinning is a small part of pen testing mobile applications the methods above is just to get you familiar with how things work and you should find the method that works best for the app you’re testing. Good Luck!           Share this: \t  References      Portswigger.net        netspi.com  Related Posts            Android &middot; How to Bypass SSL Pinning      ",
+        "url": "/mobile-hacking/bypassing-ssl-pinning/"
+      }
+      ,
+    
+      "web-hacking-self-xss": {
+        "title": "Getting Your XSS to Work",
+        "author": "Eslam Reda",
+        "category": "",
+        "content": "The most common security bug found on the web is of course cross site scripting. Most organizations underestimate the risk of XSS especially when they think it&#8217;s only a self XSS.So let’s start by looking at some payloads for testing XSSPersonally I use Burp Suite or one of the many tools that are found online to test for XSS (BruteXSS, xsser, etc&#8230;).You just check if your input is reflected somewhere in the response unsanitized or check if some of it is reflected unsanitized.For testing payloads you have my own list shared on github:XSS payloads listOr You can use the awesome XSS cheat sheet published by Brute.After doing your own tests on the website you should have a good list of possibly valid XSS so you continue digging and verify it manually (use Firefox for it as chrome has built in XSS protection).You should be familiar with XSS types (reflected, stored, DOM based) also you should be familiar with self XSS which can be one of the 3 types but only affects your own user.When you find this type of XSS that can’t be used to trick someone else’s user you should check if you can convert it into good XSS and in most cases you can.Case #1You find a self XSS in POST requestCheck if this POST request can be turned into GET request, a useful Firefox plugin to do this is Web Developer.Which will turn it into a good reflected XSS.Case #2You find a self XSS in a POST requestCheck if it’s directly vulnerable to CSRF, Using the CSRF you can make a user submit the POST request using your preset parameters including the malicious payload. Which can initiate the XSS (You can test this using ZAP Anti-CSRF Test Form).Case #3 You find a self XSS stored in your account in a website but can’t affect but the user of your account.Check if that website is vulnerable to login/logout CSRF, you can induce a user to logout then login to your account and get affected by the XSS you stored there.ConclusionAlways go all the way in trying to turn self XSS to Good XSS and try to follow how other hackers do it you will be amazed how often it happens.           Share this: \t  Related Posts            Web &middot; Getting Your XSS to Work      ",
+        "url": "/web-hacking/self-xss/"
+      }
+      
+    
+  };
+</script>
+
+<script src="../assets/js/lunr.min.js"></script>
+
+<script src="../assets/js/search.js"></script>
+
+<h3>Search on Google</h3>
+
+<script language="Javascript" type="text/javascript">
+	function google_search() {
+		var query = document.getElementById("google-search").value;
+		window.open("https://www.google.com/search?q=" + query + "+site:" + "http%3A%2F%2Flocalhost%3A4000%2F%2F");
+	}
+</script>
+
+<form id="search" onsubmit="google_search(); return false;">
+	<input type="text" id="google-search" placeholder="Enter search term and hit enter" />
+</form>
+<noscript>
+	Search <a href="https://www.google.com/search?q=site:http%3A%2F%2Flocalhost%3A4000%2F%2F" target="_blank">Google</a> for:
+	<pre><code>search-term site:http://localhost:4000//</code></pre>
+</noscript>
+
+:ET

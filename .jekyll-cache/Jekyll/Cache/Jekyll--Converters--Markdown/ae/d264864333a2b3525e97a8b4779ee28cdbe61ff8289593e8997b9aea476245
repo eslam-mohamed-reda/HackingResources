@@ -1,0 +1,17 @@
+I"o<h3>Cron Jobs</h3>
+<p><br />
+Enumeration:<br />
+<code>$crontab -l</code><br />
+<code>$ls -alh /var/spool/cron</code><br />
+<code>$ls -al /etc/ | grep cron</code><br />
+<code>$ls -al /etc/cron*</code><br />
+<code>$cat /etc/cron*</code><br />
+<code>$cat /etc/at.allow</code><br />
+<code>$cat /etc/at.deny</code><br />
+<code>$cat /etc/cron.allow</code><br />
+<code>$cat /etc/cron.deny</code><br />
+<code>$cat /etc/crontab</code><br />
+<code>$cat /etc/anacrontab</code><br />
+<code>$cat /var/spool/cron/crontabs/root</code><br />
+To exploit this overwrite the cron file with misconfigured permissions or inject code in it.</p>
+:ET

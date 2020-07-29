@@ -1,0 +1,18 @@
+I"Æ<h3>Unquoted Service Path</h3>
+<p><br />
+If the path to an executable is not inside quotes, Windows will try to execute the service executable from inside each directory.
+For example, for the path C:\Program Files\Some Folder\Service.exe Windows will try to execute:<br />
+C:\reverseshell.exe<br />
+C:\Program Files\reverseshell.exe <br />
+C:\Program Files\Some Folder\reverseshell.exe<br /><br /></p>
+
+<p>enumeration command:<br />
+<code>&gt;wmic service get name,displayname,pathname,startmode 2&gt;nul |findstr /i "Auto" 2&gt;nul |findstr /i /v "C:\Windows\\" 2&gt;nul |findstr /i /v """</code><br />Check Permissions:<br /></p>
+
+<p><code>&gt;icacls "C:\Program Files\*" 2&gt;nul | findstr "(F)" | findstr "Everyone"</code><br />
+<code>&gt;icacls "C:\Program Files (x86)\*" 2&gt;nul | findstr "(F)" | findstr "Everyone"</code><br />
+<code>&gt;icacls "C:\Program Files\*" 2&gt;nul | findstr "(F)" | findstr "BUILTIN\Users"</code><br />
+<code>&gt;icacls "C:\Program Files (x86)\*" 2&gt;nul | findstr "(F)" | findstr "BUILTIN\Users"</code><br />
+Need some help?<br />
+<a href="https://hacking-resources.com/privesc-master/windows-unquoted">List of applications that will possibly have this issue click here </a><br /></p>
+:ET

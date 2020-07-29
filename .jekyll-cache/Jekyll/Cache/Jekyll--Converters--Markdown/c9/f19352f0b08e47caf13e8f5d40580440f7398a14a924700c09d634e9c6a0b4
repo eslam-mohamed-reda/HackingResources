@@ -1,0 +1,79 @@
+I"ï<h3>Other Commands</h3>
+<p><br />
+#Check sensitive files
+<code>$cat /etc/passwd</code><br />
+<code>$cat /etc/group</code><br />
+<code>$cat /etc/shadow</code><br />
+<code>$ls -alh /var/mail/</code><br /><br /></p>
+
+<p>#Check user history
+<code>$cat ~/.bash_history</code><br />
+<code>$cat ~/.nano_history</code><br />
+<code>$cat ~/.atftp_history</code><br />
+<code>$cat ~/.mysql_history</code><br />
+<code>$cat ~/.php_history</code><br /><br /></p>
+
+<p>#World writable files:</p>
+
+<p><code>$find / -writable -type d 2&gt;/dev/null</code>      # world-writeable folders<br />
+<code>$find / -perm -222 -type d 2&gt;/dev/null</code>     # world-writeable folders<br />
+<code>$find / -perm -o w -type d 2&gt;/dev/null</code>     # world-writeable folders<br />
+<code>$find / -perm -o x -type d 2&gt;/dev/null</code>     # world-executable folders<br />
+<code>$find / \( -perm -o w -perm -o x \) -type d 2&gt;/dev/null</code>   # world-writeable &amp; executable folders<br /><br /></p>
+
+<p>#Find a way to upload files:<br />
+<code>$find / -name wget</code><br />
+<code>$find / -name nc*</code><br />
+<code>$find / -name netcat*</code><br />
+<code>$find / -name tftp* </code><br />
+<code>$find / -name ftp</code><br /><br />
+#List environment variables
+<code>$cat /etc/profile</code><br />
+<code>$cat /etc/bashrc</code><br />
+<code>$cat ~/.bash_profile</code><br />
+<code>$cat ~/.bashrc</code><br />
+<code>$cat ~/.bash_logout</code><br />
+<code>$env</code><br /><br /></p>
+
+<p>#Check log files:<br /></p>
+
+<p><code>$cat /etc/httpd/logs/access_log</code><br />
+<code>$cat /etc/httpd/logs/access.log</code><br />
+<code>$cat /etc/httpd/logs/error_log</code><br />
+<code>$cat /etc/httpd/logs/error.log</code><br />
+<code>$cat /var/log/apache2/access_log</code><br />
+<code>$cat /var/log/apache2/access.log</code><br />
+<code>$cat /var/log/apache2/error_log</code><br />
+<code>$cat /var/log/apache2/error.log</code><br />
+<code>$cat /var/log/apache/access_log</code><br />
+<code>$cat /var/log/apache/access.log</code><br />
+<code>$cat /var/log/auth.log</code><br />
+<code>$cat /var/log/chttp.log</code><br />
+<code>$cat /var/log/cups/error_log</code><br />
+<code>$cat /var/log/dpkg.log</code><br />
+<code>$cat /var/log/faillog</code><br />
+<code>$cat /var/log/httpd/access_log</code><br />
+<code>$cat /var/log/httpd/access.log</code><br />
+<code>$cat /var/log/httpd/error_log</code><br />
+<code>$cat /var/log/httpd/error.log</code><br />
+<code>$cat /var/log/lastlog</code><br />
+<code>$cat /var/log/lighttpd/access.log</code><br />
+<code>$cat /var/log/lighttpd/error.log</code><br />
+<code>$cat /var/log/lighttpd/lighttpd.access.log</code><br />
+<code>$cat /var/log/lighttpd/lighttpd.error.log</code><br />
+<code>$cat /var/log/messages</code><br />
+<code>$cat /var/log/secure</code><br />
+<code>$cat /var/log/syslog</code><br />
+<code>$cat /var/log/wtmp</code><br />
+<code>$cat /var/log/xferlog</code><br />
+<code>$cat /var/log/yum.log</code><br />
+<code>$cat /var/run/utmp</code><br />
+<code>$cat /var/webmin/miniserv.log</code><br />
+<code>$cat /var/www/logs/access_log</code><br />
+<code>$cat /var/www/logs/access.log</code><br />
+<code>$ls -alh /var/lib/dhcp3/</code><br />
+<code>$ls -alh /var/log/postgresql/</code><br />
+<code>$ls -alh /var/log/proftpd/</code><br />
+<code>$ls -alh /var/log/samba/</code><br /></p>
+
+:ET

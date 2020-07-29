@@ -1,0 +1,35 @@
+I"Z<h3>Services</h3>
+<p><br />
+Check running services:<br />
+<code>$ps aux</code><br />
+<code>$ps -ef</code><br />
+<code>$top</code><br />
+<code>$cat /etc/services</code><br />
+<code>$netstat -antup</code><br />
+Check what services is running as root using the following commands:<br />
+<code>$ps aux | grep root</code><br />
+<code>$ps -ef | grep root</code><br /></p>
+
+<p>Check installed application and check if they`re running:<br />
+<code>$ls -alh /usr/bin/</code><br />
+<code>$ls -alh /sbin/</code><br />
+<code>$dpkg -l</code><br />
+<code>$rpm -qa</code><br />
+<code>$ls -alh /var/cache/apt/archives</code><br />
+<code>$ls -alh /var/cache/yum/</code><br /><br /></p>
+
+<p>Check services configuration:<br />
+<code>$cat /etc/syslog.conf</code><br />
+<code>$cat /etc/chttp.conf</code><br />
+<code>$cat /etc/lighttpd.conf</code><br />
+<code>$cat /etc/cups/cupsd.conf</code><br />
+<code>$cat /etc/inetd.conf</code><br />
+<code>$cat /etc/apache2/apache2.conf</code><br />
+<code>$cat /etc/my.conf</code><br />
+<code>$cat /etc/httpd/conf/httpd.conf</code><br />
+<code>$cat /opt/lampp/etc/httpd.conf</code><br />
+<code>$ls -aRl /etc/ | awk &apos;$1 ~ /^.*r.*/</code><br /><br /></p>
+
+<p>Then check if running services have public exploits use <code>$searchsploit</code> or google.<br />
+If the service is running as root check what can you execute with the service. <br /></p>
+:ET

