@@ -1,9 +1,0 @@
-I"ô<h3>$sudo</h3>
-<p><br />
-Enumeration:<br />
-#List Sudoers
-<code>$cat /etc/sudoers</code><br />
-#Show which commands sudo allows you to run
-<code>$sudo -l</code><br />
-You can use <a href="https://gtfobins.github.io/">GTFOBins</a> here too.</p>
-:ET
