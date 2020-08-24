@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "How to Bypass SSL Pinning"
+header: no
 subheadline:  "Android"
 teaser: "So you can start testing."
 categories:
