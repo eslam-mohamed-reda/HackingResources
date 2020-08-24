@@ -85,3 +85,4 @@ But consider the machine performance and storage, Always keep or add tools relev
 ## Related Posts 
 {: .t60 }
 {% include list-posts tag='tools' %}
+{% include chat.html %}

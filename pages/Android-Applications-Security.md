@@ -118,3 +118,6 @@ permalink: "/Android-Applications-Security"
   * [Android MailRu Email: Thirdparty can access private data files with small user interaction](https://hackerone.com/reports/226191){:target="_blank"}
 
   * [Activities are not Protected and able to crash app using other app (Can Malware or third parry app).](https://hackerone.com/reports/65729){:target="_blank"}
+
+{% include share.html %}
+{% include chat.html %}

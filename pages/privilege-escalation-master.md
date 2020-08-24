@@ -484,5 +484,6 @@ From within nmap:<br>
 ' %}
 	
 {% include share.html %}	
+{% include chat.html %}
 	
 	

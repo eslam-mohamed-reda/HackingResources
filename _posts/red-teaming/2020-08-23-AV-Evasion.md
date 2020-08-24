@@ -24,6 +24,7 @@ This talk was given by [Eslam Reda](https://www.linkedin.com/in/eslammohamedreda
 Check out the material on [bufferoverflows.net](https://bufferoverflows.net/the-art-of-bypassing-endpoint-protections-for-red-teaming-engagements/)
 
 {% include share.html %}
+{% include chat.html %}
 
 ## Related Posts 
 {: .t60 }

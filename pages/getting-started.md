@@ -19,5 +19,6 @@ permalink: "/getting-started/"
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}">Check out the home page ›</a>
 
 {% include share.html %}
+{% include chat.html %}
 
  [1]: {{ site.url }}{{ site.baseurl }}

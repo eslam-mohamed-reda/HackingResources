@@ -75,7 +75,8 @@ Build your own labs and Practice .. Practice .. Practice
 	
 	
 	
-{% include share.html %}	
+{% include share.html %}
+{% include chat.html %}
 	
 	
 	

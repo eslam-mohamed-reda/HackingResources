@@ -72,3 +72,4 @@ permalink: "/SSRF/"
 	* [SSRF in proxy.duckduckgo.com via the image_host parameter](https://hackerone.com/reports/358119){:target="_blank"}
 
 {% include share.html %}
+{% include chat.html %}

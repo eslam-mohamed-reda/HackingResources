@@ -15,5 +15,6 @@ permalink: "/privesc"
 
 	
 {% include share.html %}	
+{% include chat.html %}
 	
 	

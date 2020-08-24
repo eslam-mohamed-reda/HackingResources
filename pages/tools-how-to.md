@@ -23,3 +23,4 @@ permalink: "/tools-how-to"
 		
 		
 {% include share.html %}
+{% include chat.html %}

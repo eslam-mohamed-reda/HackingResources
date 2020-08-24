@@ -123,6 +123,7 @@ permalink: "/Blue-Team-Arsenal"
 
 
 {% include share.html %}
+{% include chat.html %}
 
 
 

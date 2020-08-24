@@ -36,3 +36,4 @@ permalink: "/knowledge-base"
 
 
 {% include share.html %}
+{% include chat.html %}

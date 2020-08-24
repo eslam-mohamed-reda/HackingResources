@@ -41,3 +41,4 @@ permalink: /index.html
 homepage: true
 ---
 
+{% include chat.html %}
