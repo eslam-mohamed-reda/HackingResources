@@ -10,11 +10,7 @@ format: frontpage
 </div><!-- /#header-home -->
 
 
-{% comment %}
-*
-* First check, if widget is empty or not by checking if there is a title
-*
-{% endcomment %}
+
 <div class="row t60">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
@@ -31,11 +27,7 @@ format: frontpage
 
 
 
-{% comment %}
-*
-* First check, if there is a call for action-button
-*
-{% endcomment %}
+
 {% if page.callforaction.url contains 'http' %}
 {% assign url = '' %}
 {% else %}
@@ -49,13 +41,6 @@ format: frontpage
     </div><!-- /.row -->
 {% endif %}
 
-
-
-{% comment %}
-*
-* First check, if there are any posts at all
-*
-{% endcomment %}
 
 {% unless site.posts == empty %}
     <div class="row t30 b20 homepage">
@@ -100,11 +85,6 @@ format: frontpage
 {% endunless %}
 
 
-{% comment %}
-*
-* Finally, if there is content, spit it out.
-*
-{% endcomment %}
 
 <div class="row">
     {{ content }}

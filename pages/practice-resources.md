@@ -4,8 +4,6 @@ title: "Practice Resources"
 meta_title: "Practice Resources"
 subheadline: ""
 teaser: ""
-header:
-   image_fullwidth: "learn.jpg"
 permalink: "/practice-resources"
 ---
 

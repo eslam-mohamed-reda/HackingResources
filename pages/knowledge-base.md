@@ -4,8 +4,6 @@ title: "Knowledge Base"
 meta_title: "Knowledge"
 subheadline: ""
 teaser: ""
-header:
-   image_fullwidth: "old-book.jpg"
 permalink: "/knowledge-base"
 ---
 

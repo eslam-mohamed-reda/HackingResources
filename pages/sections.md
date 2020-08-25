@@ -4,8 +4,6 @@ show_meta: false
 title: "Sections"
 subheadline: "Explore"
 teaser: ""
-header:
-   image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/sections/"
 ---
 
@@ -40,3 +38,4 @@ permalink: "/sections/"
 </html>
 
 {% include share.html %}
+{% include chat.html %}

@@ -11,7 +11,7 @@ teaser: "Bsides Munich Talk"
 sidebar: right
 categories: Red-Teaming
 tags:
-  - Red Teaming, Anti-Virus Evasion
+  - RedTeaming
 iframe: "<iframe width='970' height='546' src='//www.youtube.com/embed/2X7zktVqBaY' frameborder='0' allowfullscreen></iframe>"
 video:
     embedURL: ""
@@ -28,4 +28,4 @@ Check out the material on [bufferoverflows.net](https://bufferoverflows.net/the-
 
 ## Related Posts 
 {: .t60 }
-{% include list-posts tag='Red Teaming' %}
+{% include list-posts tag='RedTeaming' %}

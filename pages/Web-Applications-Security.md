@@ -4,8 +4,6 @@ title: "Web Applications Security"
 meta_title: "Web"
 subheadline: ""
 teaser: ""
-header:
-   image_fullwidth: ""
 permalink: "/Web-Applications-Security"
 ---
 

@@ -7,7 +7,7 @@ subheadline:  "Tools"
 teaser: "Hack from the cloud"
 breadcrumb: true
 tags:
-    - tools, cloud
+    - tools
 categories:
     - tools
 image:

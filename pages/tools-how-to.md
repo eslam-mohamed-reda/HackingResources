@@ -4,8 +4,6 @@ title: "Tools How To"
 meta_title: "Tools How To"
 subheadline: ""
 teaser: ""
-header:
-   image_fullwidth: ""
 permalink: "/tools-how-to"
 ---
 

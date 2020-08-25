@@ -4,8 +4,6 @@ show_meta: false
 title: "Getting Started"
 subheadline: "How to use hacking-resources"
 teaser: "Hacking-resources is a place to learn security"
-header:
-   image_fullwidth: "header_homepage_13.jpg"
 permalink: "/getting-started/"
 ---
 1. Check out the website <u><a href="https://hacking-resources.com/sections/">sections</a></u> at the top menu.
