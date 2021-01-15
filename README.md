@@ -7,7 +7,7 @@
 
 **Click the cat to view the website :point_down:**
 
-[![hacking-resources](https://raw.githubusercontent.com/eslam-mohamed-reda/hacking-resources/master/favicon.ico)](http://hacking-resources.com)
+[![hacking-resources](https://hacking-resources.com/assets/img/logo.png)](http://hacking-resources.com)
 
 
 
