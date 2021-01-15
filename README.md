@@ -1,4 +1,4 @@
-## You like hacking resources? Then support us. [donate](https://paypal.me/EslamMReda) :)
+## You like hacking resources? Then support us by subscribing to our newsletter :)
 
 # Hacking Resources 
 **Regularly updated :fire:** 
