@@ -21,7 +21,8 @@ callforaction:
 permalink: /index.html
 
 homepage: true
-header: no
+header:
+   image_fullwidth: ""
 ---
 
 {% include chat.html %}

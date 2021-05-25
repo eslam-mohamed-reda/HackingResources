@@ -5,6 +5,7 @@ meta_title: "Awareness"
 subheadline: "Offensive"
 teaser: "A collection of free and open source tools that can be used to increase <b>Awareness</b> in an enterprise "
 permalink: "/security-awareness"
+header: no
 ---
 
 * ### Resources 

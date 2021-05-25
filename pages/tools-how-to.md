@@ -5,6 +5,7 @@ meta_title: "Tools How To"
 subheadline: ""
 teaser: ""
 permalink: "/tools-how-to"
+header: no
 ---
 
 * ### Supporting Tools

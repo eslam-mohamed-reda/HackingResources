@@ -5,6 +5,7 @@ title: "Getting Started"
 subheadline: "How to use hacking-resources"
 teaser: "Hacking-resources is a place to learn security"
 permalink: "/getting-started/"
+header: no
 ---
 1. Check out the website <u><a href="https://hacking-resources.com/sections/">sections</a></u> at the top menu.
 1. Start defining goals to study and <u><a href="{{site.url}}/subscribe/">subscribe</a></u> to get new updates.

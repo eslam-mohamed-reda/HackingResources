@@ -5,6 +5,7 @@ meta_title: "Contact Us"
 subheadline: ""
 teaser: "We are open to any additions, any articles or any suggestions, Get in touch with us"
 permalink: "/contact/"
+header: no
 ---
 <form
   action="https://formspree.io/myynavjd"

@@ -5,6 +5,7 @@ meta_title: "Android"
 subheadline: "Offensive"
 teaser: ""
 permalink: "/Android-Applications-Security"
+header: no
 ---
 
 * ### Resources

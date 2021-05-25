@@ -5,6 +5,8 @@ meta_title: "Web"
 subheadline: ""
 teaser: ""
 permalink: "/Web-Applications-Security"
+header:
+   image_fullwidth: ""
 ---
 
 

@@ -5,6 +5,8 @@ title: "Sections"
 subheadline: "Explore"
 teaser: ""
 permalink: "/sections/"
+header:
+   image_fullwidth: ""
 ---
 
 <div class="panel radius" markdown="1">

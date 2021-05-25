@@ -5,6 +5,7 @@ meta_title: "Knowledge"
 subheadline: ""
 teaser: ""
 permalink: "knowledge-base"
+header: no
 ---
 
 
